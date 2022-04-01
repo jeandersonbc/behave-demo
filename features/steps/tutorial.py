@@ -16,7 +16,7 @@ def step_impl(context):
     """
     :type context: behave.runner.Context
     """
-    assert True is not False
+    pass
 
 
 @then("behave will test it for us!")
@@ -24,4 +24,4 @@ def step_impl(context):
     """
     :type context: behave.runner.Context
     """
-    assert context.failed is False
+    pass
