@@ -5,7 +5,7 @@
 - Reruns are not meant to _fix_ test flakiness, because they really don't. However, they are a
   powerful ally to stabilize build execution (which is a symptom caused by test flakiness). This is
   even more critical when build times are costly because the whole build execution is penalized by a
-  few false positive (e.g., a fail that does not represent a real bug).
+  few false positive (i.e., a fail that does not represent a real bug).
 - By rerunning failing tests, we can expose failures that are real and be more tolerant with
   failures that were a result of an unstable testing environment.
 
