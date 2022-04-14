@@ -83,6 +83,15 @@ The downside of this approach is that Allure does not know how to display this p
 looking at the summaries, you can't distinguish between reruns and passing tests unless you check
 the execution.
 
+<table>
+  <tbody>
+    <tr>
+      <td><img src="./docs/approach1_2.png" width="300px"/></td>
+      <td><img src="./docs/approach1_1.png" width="300px"/></td>
+    </tr>
+   <tbody>
+</table>
+
 ## Approach #2 - Asking behave to generate failing scenarios to rerun
 
 In this approach, we don't pragmatically ask behave to patch scenarios with retries (as in Approach
